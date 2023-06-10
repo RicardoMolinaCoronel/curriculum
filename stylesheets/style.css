@@ -1,37 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
-h1 {
-font-family: Libre Franklin;
-color: red;
-}
-a {
-  text-decoration: none; /* Elimina el subrayado */
-  font-size: 1.2rem; /* Aplica un tamaño de fuente de 1.2rem */
-}
-* {
-font-family: Libre Franklin;
-}
-h2 {
-font-family: Libre Franklin;
-}
-#myDiv {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+
+
+*{
+font-family: Hind Madurai;
 background-color: #f9f4ef;
-}
-.section h2 {
-color: #020826;
-}
-img {
-  border: 1pt solid black;
-  padding: 1.1rem;
-  margin-top: 10px;
-  margin-left: 25%;
-  margin-right: 25%;
-margin-bottom: 2px;
+color: #716040;
 }
 
-#mapa{
-margin-left: auto;
-    margin-right: auto;
-width: 50em
+h1 {
+font-family:Montserrat;
+color:#020826;
+background-color:#eaddcf;
 }
+nav > p{
+	font-family: Montserrat;
+}
+a { /* Elimina el subrayado */
+  color:#f25042;
+}
+
+
+
+img {
+  border: 3pt solid #020826;
+  padding: 1.1rem;
+}
+
+
+
+
+
+main{
+display: flex;
+row-gap: 0.5rem;
+column-gap:0.5rem;
+flex-wrap: wrap; 
+justify-content: space-between;
+
+}
+
+h2{
+	background-color:#eaddcf;
+	color:#020826;
+	font-family:Lora;
+}
+
+
+
+
+ #informacionpersonal{
+	 width:20%;
+ }
+ #icono{
+	 width:15%
+
+ }
+ #experiencia{
+	 width:49%;
+ }
+  #habilidades{
+	 width:50%;
+ }
+ #educacion{
+	 width:49%;
+ }
+ form{
+	 width:100%;
+	 display: flex;
+row-gap: 0.5rem;
+column-gap:0.5rem;
+flex-wrap: wrap; 
+justify-content: space-between;
+ }
+
+ #interesado{
+	 width:100%;
+ }
+#labelNombre{
+	width:19%;
+}
+#name{
+	width:79%;
+}
+#labelEmail{
+	width:19%;
+}
+#email{
+	width:79%;
+}
+#labelMsg{
+	width:19%;
+}
+#msg{
+	width:79%;
+}
+#btnaceptar{
+	background-color:#8c7851;
+	color:#fffffe;
+
+}
+
+#desarrollador{
+	width:100%;
+}
+#video{
+	width:100%;
+	margin-left: 25%;
+    margin-right: 25%;
+}
+#agencia{
+	width:100%;
+}
+#mapa{
+	margin-left: 25%;
+    margin-right: 25%;
+width: 100%
+}
+
+footer > p{
+			margin-left: 45%;
+		
+}
+
+
+
+
+ 
+
+
 
 

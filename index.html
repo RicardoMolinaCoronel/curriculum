@@ -3,34 +3,35 @@
 <head>
 <link rel="stylesheet" href="stylesheets/style.css">
 <title>Curriculum Vitae</title>
+<meta charset="utf-8"> 
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Proyecto Curriculum Vitae de Ricardo Molina">
+<meta name="author" content="Ricardo Molina">
+<meta name="keywords" content="curriculum,vitae,ricardo,molina,estructura,general">
 </head>
 <body>
 <header>
 <h1>Curriculum Vitae</h1>
 </header>
+<nav><p>Información</p></nav>
 <main>
-<div class="section">
-<div id="myDiv2">
-<h2>Informacion Personal</h2></span>
-<span class="highlight">Nombre: Ricardo Molina</span><p>John Doe</p>
-<p>Email: ricardom2314@hotmail.com</p>
-<p>Telefono: 0988975302</p>
-</div>
-</div>
-<div class="section">
-<h2>Educacion</h2>
-<p>Bachillerato, Jose Domingo de Santistevan</p>
-<p>6to Semestre Ingeniería Computación , ESPOL</p>
-<p>2020-2023</p>
-</div>
-<div class="section">
+<section id="informacionpersonal">
+
+<h2>Informacion Personal</h2>
+<p>- Nombre: Ricardo Molina Coronel</p>
+<p>- Email: ricardom2314@hotmail.com</p>
+<p>- Telefono: 0988975302</p>
+ <a href="https://www.linkedin.com">-Enlace a LinkedIn</a>
+
+</section>
+
+ <img src="icono.jpg" id="icono" ></img>
+
+<section id="experiencia">
 <h2>Experiencia laboral</h2>
- <ol>
   <li>Desarrollador de aplicaciones de escritorio y móviles</li>
-  <li>2022-2023</li>
-  <li>RetailPoint EC</li>
-  </ol>
- <table border="1">
+ <p></p>
+ <table border="2">
 <thead>
 <tr>
 <th>Empresa</th>
@@ -46,48 +47,54 @@
 </tr>
 </tbody>
 </table>
-</div>
-<div class="section">
+</section>
+<section id="habilidades">
 <h2>Habilidades</h2>
-<ul>
+
 <li>Desarrollador de aplicaciones de escritorio</li>
  <li>Desarrollador de aplicaciones móviles</li>
-  <li>Diseño Web</li>
-  <li>Lenguajes de programación: Java, Pytho,C</li>
-</ul>
-<p>Programming Languages: Java, Python, C</p>
-<p>Operating Systems: Linux, Windows, macOS</p>
-<p>Databases: MySQL, PostgreSQL</p>
-</div>
- <div class="section">
- <a href="https://www.linkedin.com/in/your-name">Enlace a LinkedIn</a>
-  </div>
+  <li>Desarrollador web</li>
+  <li>Lenguajes de programación: Java, Python,C</li>
 
+</section>
+<section id="educacion">
+<h2>Educación</h2>
+<li>Bachillerato, Jose Domingo de Santistevan</li>
+<li>6to Semestre Ingeniería en Computación , ESPOL</li>
+</section>
+ <section>
+
+  </section>
+   <p id="interesado">Si está interesado, envía un mensaje al dueño del curriculum:</p>
+  <section id="formulario">
  <form>
-  <div class=form-example>
-   <label for:"name">Ingresa tu nombre: </label>
+
+   <label for:"name" id="labelNombre">Ingresa tu nombre: </label>
    <input type="text" name="name" id="name" required>
-   </div>
-  <div class=form-example>
-   <label for:"email">Ingresa tu email: </label>
+
+  
+   <label for:"email" id="labelEmail">Ingresa tu correo: </label>
    <input type="email" name="email" id="email" required>
-   </div>
-  <div class=form1-example>
-   <input type="submit" value="Aceptar" required>
-   </div>
+  
+  
+   <label for:"email" id="labelMsg">Ingresa el mensaje: </label>
+   <input type="email" name="email" id="msg" required>
+  
+  
+   <input id=btnaceptar type="submit" value="Aceptar" required>
+ 
  </form>
- <img src="https://placehold.co/600x400"></img>
-<video width="320" height="240" autoplay muted>
-  <source src="https://www.youtube.com/watch?v=WoGAq9jC8g8" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-  <iframe src="https://www.youtube.com/watch?v=WoGAq9jC8g8" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<div>
- <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2819.258354367997!2d-79.91004142248163!3d-2.1408817429383427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6d7ab61f0ad1%3A0x7ac607b032ad30dc!2sBambini%20Kids!5e0!3m2!1ses!2sec!4v1684781503003!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-<div>Desarrollador de aplicaciones de escritorio</div>
- <span>Desarrollador de aplicaciones de escritorio</span>
- <p>Desarrollador de aplicaciones de escritorio</p>
+ </section>
+
+ <h2 id="desarrollador">¿Qué es un desarrollador? </h2>
+ <section id="video">
+  <iframe src="desarrollador.mp4" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+ <h2 id="agencia">Agencia de contacto: </h2>
+<section id="mapa">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2819.258354367997!2d-79.91004142248163!3d-2.1408817429383427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6d7ab61f0ad1%3A0x7ac607b032ad30dc!2sBambini%20Kids!5e0!3m2!1ses!2sec!4v1684781503003!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </section>
+
  </main>
 <footer>
 <p>Copyright &copy; 2023</p>
